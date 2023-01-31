@@ -1,0 +1,33 @@
+{
+  "name": "ahmx-todo-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedShaykh/TypeScript-Todo-List.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedShaykh/TypeScript-Todo-List/issues"
+  },
+  "homepage": "https://github.com/AhmedShaykh/TypeScript-Todo-List#readme",
+  "bin": {
+    "ahmx-todo-cli": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18"
+  }
+}
